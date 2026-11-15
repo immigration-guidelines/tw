@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 響應式網頁設定：若後端設定不開啟響應式網頁效果，則不顯示以下這一行 -->
+    <meta id="ctl00_RWDSetup" name="viewport" content="width=590" /><title>
+	 -Content
+</title><link href="css/font-awesome.min.css" rel="stylesheet" /><link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" /><link href="css/bootstrap-icons.min.css" rel="stylesheet" type="text/css" /><link href="css/layout.css?v=202606251713" rel="stylesheet" type="text/css" media="screen" /><link href="css/table.css" rel="stylesheet" type="text/css" media="screen" />
+    <!-- 網站樣式設定：依據後端設定樣式編號，讀取對應的CSS檔 -->
+    <link id="ctl00_TemplateID" href="/css/01.css" rel="stylesheet" type="text/css" media="all" /><link href="css/printweb.css" rel="stylesheet" type="text/css" media="print" />
+    <!-- 網頁背景圖設定：若後端自行上傳背景圖，則顯示以下這一行 -->
+   
+    <script src="/js/jquery-3.7.1.min.js" type="text/javascript" nonce="7QiG5lTMQE6NYuttINgonw=="></script>
+    <script type="text/javascript"  nonce="7QiG5lTMQE6NYuttINgonw==">
+        $(function () {
+            //避免XFS攻擊
+            if (top != self) { top.location = self.location; }
+        });
+    </script>
+    
+    <noscript><span class="text-white">No Support JavaScript</span></noscript>
+    
+    <style nonce="7QiG5lTMQE6NYuttINgonw==">
+        #dvContent, #dvContent p, #dvContent div {
+            white-space: pre-wrap !important;
+        }
+
+        /* 補上 Quill 客製化字型尺寸 (10pt~24pt) */
+        .ql-size-10pt, .x_ql-size-10pt { font-size: 0.833em; }
+        .ql-size-12pt, .x_ql-size-12pt { font-size: 1.0em; }
+        .ql-size-14pt, .x_ql-size-14pt { font-size: 1.167em; }
+        .ql-size-16pt, .x_ql-size-16pt { font-size: 1.333em; }
+        .ql-size-18pt, .x_ql-size-18pt { font-size: 1.5em; }
+        .ql-size-20pt, .x_ql-size-20pt { font-size: 1.667em; }
+        .ql-size-24pt, .x_ql-size-24pt { font-size: 2.0em; }
+
+        /* 定義字型套用至編輯區的 Class 規則 */
+.ql-font-kai, .x_ql-font-kai {
+    font-family: "標楷體", "DFKai-SB", "BiauKai", serif;
+}
+
+.ql-font-pmingliu, .x_ql-font-pmingliu {
+    font-family: "新細明體", "PMingLiU", serif;
+}
+
+.ql-font-mingliu, .x_ql-font-mingliu {
+    font-family: "細明體", "MingLiU", serif;
+}
+
+.ql-font-times, .x_ql-font-times {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* 設定下拉選單預設顯示名稱 */
+.ql-snow .ql-picker.ql-font .ql-picker-label::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item::before {
+    content: '預設字型' !important;
+}
+
+/* 將各個字型代碼精準對映為「中文/英文顯示名稱」（在選單內也會以該字型呈現） */
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="kai"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="kai"]::before {
+    content: '標楷體' !important;
+    font-family: "標楷體", "DFKai-SB", "BiauKai", serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="pmingliu"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="pmingliu"]::before {
+    content: '新細明體' !important;
+    font-family: "新細明體", "PMingLiU", serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="mingliu"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="mingliu"]::before {
+    content: '細明體' !important;
+    font-family: "細明體", "MingLiU", serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="times"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="times"]::before {
+    content: 'Times New Roman' !important;
+    font-family: "Times New Roman", Times, serif;
+}
+    </style>
+
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="./EngLawContent.aspx?lan=E&amp;id=59" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7D393E81" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="ohahY5UE/n7e87sd5glSiSYlnG+IBdavfAy3RSvl50jYY9Ri/H1sW98ezIKrkwoPe//tG5VrjI8vyh1P3pt/xcf+IDfpwSYthRWINQ8VOSVPn9mBOZjmKOS1quUwZQy5a3uyNW4ukp32NynlW+uMU1JdiNRzSJPaC6yB8+zP3bM2LJTioSUkbDkKgblslXOB/cN8IIEds35IQrY6XL1S8MDLqC1obP+5DzUtuUcKMTI=" />
+</div>
+        <input type="hidden" name="ctl00$ctl11$forgeryToken" id="ctl00_ctl11_forgeryToken" value="b869373c-210d-4fae-b6d5-22293f22d4a2" />
+        <header>
+            <div class="navbar navbar-expand-md navbar-default">
+                <a href="#content" id="AM" class="sr-only sr-only-focusable A1" tabindex="1">Main Content Area</a>
+                <div id="ctl00_h1title" class="nav-system">Laws and Regulations Retrieving System</div>
+                <div class="header-con">
+                    <!-- 上方選單 -->
+                    <div class="collapse navbar-collapse header-nav">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#U" id="AU" name="U" title="Upper Block" accesskey="U" tabindex="2">:::</a></li>
+                            <li><a href="EngSiteMap.aspx" tabindex="3">Sitemap</a></li>
+                            <li><a href="EngNewsList.aspx" tabindex="4">Home</a></li>
+                            <li><a href="index.aspx" tabindex="5">中文版</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-header">
+                        <ul class="navbar-nav d-md-none m-menu">
+                            <li class="nav-item text-nowrap">
+                                <button type="button" class="navbar-toggler myNavbar" data-bs-toggle="offcanvas" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="MENU">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </li>
+                        </ul>
+                        <!-- 領用機關Logo 圖片-->
+                        <h1 class="logo">
+                            <a href="EngNewsList.aspx" id="ctl00_aUCName" title=" Laws and Regulations Retrieving System：Back To Home Page">
+                                <img src="ImageHandler.ashx?Field=LogoEng" id="ctl00_imgUCName" width="320" height="90" alt=" logo：Back To Laws and Regulations Retrieving System Home Page" />
+                            </a>
+                        </h1>
+                        <!-- 系統名稱Banner -->
+                        <div class="sys-name">
+                            <img src="images/logo_system.png" id="ctl00_imglogo" width="300" height="90" alt="Laws and Regulations Retrieving System" />
+                        </div>
+                    </div>
+                </div>
+                <!-- myNavbar 主選單 -->
+                <nav class="offcanvas offcanvas-end menu" id="myNavbar" aria-label="The main function menu">
+                    <div class="menu-con">
+                        <div class="offcanvas-header">
+                            <div>主管法規查詢系統</div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="關閉主選單"></button>
+                        </div>
+                        <ul class="m-0">
+                            <li class="active"><a href="EngNewsList.aspx">News</a></li>
+                            <li><a href="EngLawQuery.aspx">Searching</a></li>
+                            <!-- 小螢幕才會顯示 -->
+                            <li class="topmenu visible-xs"><a href="EngSiteMap.aspx">Sitemap</a></li>
+                            <li class="topmenu visible-xs"><a href="EngNewsList.aspx">Home</a></li>
+                            <li class="topmenu visible-xs"><a href="index.aspx">中文版</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+        <!-- 主要內容 -->
+        <div class="container-fluid con-bg">
+            <div class="content-con" id="content" role="main">
+                <a href="#C" id="AC" name="C" title="Main Content Area" accesskey="C">:::</a>
+                
+    
+            <ol class="breadcrumb">
+                Location：
+                <li><a href="EngLawQuery.aspx" id="ctl00_cp_content_aLocation_E">Searching</a></li>
+                <li>Content</li>
+            </ol>
+            <div class="btn-printer">
+                <a href="EngLawContent.aspx?media=downloadPDF&lan=E&id=59" id="ctl00_cp_content_aPDF" class="btn btn-default" title="Download Operation Directions for Ministry of Foreign Affairs and ROC Embassy or Mission Abroad Processing Interviews with Foreigners Applying for Entry to Taiwan for Marriage to ROC Citizens.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;PDF</a>
+                <a class="btn btn-default" href="EngLawContent.aspx?media=print&lan=E&id=59" title="Open New Window" target="_blank"><i class="bi bi-printer-fill"></i>&nbsp;Print</a>
+            </div>
+            <div class="clearfix"></div>
+            <div class="text-con">
+                <div class="text-title">
+                    <h2><i class="bi bi-geo-alt-fill"></i> Content</h2>
+                </div>
+                <table class="table table-bordered tab-edit">
+                    <tr>
+                        <th width="20%">Title：</th>
+                        <td>
+                            
+                            Operation Directions for Ministry of Foreign Affairs and ROC Embassy or Mission Abroad Processing Interviews with Foreigners Applying for Entry to Taiwan for Marriage to ROC Citizens
+                            <span class="label-chi"><a href="EngLawContent.aspx?lan=C&id=59" title="Read the Chinese version">Ch</a></span>
+                        </td>
+                    </tr>
+                    <tr id="ctl00_cp_content_trAnnDateE">
+	<th>Date：</th>
+	<td>2024.07.29</td>
+</tr>
+
+                    <tr id="ctl00_cp_content_trAnnSource">
+	<th>Legislative：</th>
+	<td>Promulgated by the Ministry of Foreign Affairs by Order Wai Shou Ling Er Zi No.<br>0996800492 on June 9, 2010, taking effect on the same day.<br>Amended by the Ministry of Foreign Affairs by Order Wai Shou Ling Er Zi No.<br>1026801341 on October 25, 2013.<br>Articles 3, 7, and 10 amended by the Ministry of Foreign Affairs by Order Wai Shou<br>Ling Er Zi No. 1086800517 on May 10, 2019.<br>Articles 3 and 7 amended by the Ministry of Foreign Affairs by Order Wai Shou Ling<br>Er Zi No. 1126800109 on March 17, 2023.<br>Articles 7 amended by the Ministry of Foreign Affairs by Order Wai Shou Ling Er Zi<br>No. 1136800848 on July 29, 2024.</td>
+</tr>
+
+                    <tr id="ctl00_cp_content_trAnnEContent">
+	<th>Content：</th>
+	<td class="ClearCss">1. These Guidelines have been promulgated to serve as reference for the Ministry of Foreign Affairs (hereinafter referred to as the “Ministry”) and overseas missions of the Republic of China (Taiwan) with regard to interviews with foreign nationals who
+ are applying for document authentication and visas to Taiwan on the basis of marriage to an ROC citizen. The purpose of these Guidelines is to maintain border security, prevent human trafficking, and prevent foreign nationals from using spousal status to enter
+ Taiwan under false pretenses to engage in activities that are inconsistent with the purpose of their visa applications. In addition, consideration shall also be given to the reunion and cohabitation rights of families consisting of ROC citizens and foreign
+ nationals.<br>
+<br>
+2. The Ministry may create a list of designated countries and specified locations where interviews shall be conducted, taking into account the ROC’s national interests, international convention and practice, relations between the ROC and other countries, and
+ the general situation regarding nationals of such countries who are 2 visiting or residing in Taiwan. The Ministry shall review and modify the list when necessary.<br>
+<br>
+3. Nationals of designated countries, who are married to an ROC citizen and are applying for document authentication and visas to Taiwan, must submit the following documents to the ROC overseas mission in their country or another designated location before
+ they can apply for an interview:<br>
+(1) A letter explaining the history of the relationship between the foreign national and the ROC citizen.<br>
+(2) New and old passports of the foreign national.<br>
+(3) Personal identification documents besides passports, as well as the birth certificate of the foreign national.<br>
+(4) Marriage status certificate and a certificate confirming the single status of the foreign national before the marriage.<br>
+(5) National ID Card and passport of the ROC citizen.<br>
+(6) A complete family household registration transcript of the ROC citizen issued within the past three months.<br>
+(7) Documents that are required by the home country of the foreign national when citizens of that country marry foreigners.<br>
+(8) The marriage certificate or marriage registration issued by the home country of the foreign national (including a Chinese or English translation) and authenticated by that country’s competent authorities. However, applicants who are unable to obtain a marriage
+ certificate due to gender-related issues are exempt from the requirement to submit one.<br>
+(9) Proof of no criminal record issued by the home country of the foreign national and authenticated by that country’s competent authorities. (10)Other supplementary documents that can prove the genuineness of the marriage. The ROC citizen and the foreign spouse
+ must attend the interview in person at an ROC overseas mission or other specified location. Applicants who meet any of the 3 conditions in Article 7 of these Guidelines are exempted from the interview. The ROC overseas mission may not refuse to interview applicants
+ unless they are unable to provide documents required in Article 1.<br>
+<br>
+4. Interviewers shall be designated by the Ministry or ROC overseas mission. The interviewer shall not employ interview techniques that involve violence, threats, inducement, deception, exhausting interrogation, or other improper means.<br>
+<br>
+5. An audio recording shall be made of the whole interview and a video recording shall be made if necessary. The interviewer shall make concise written notes during the interview. Following the interview, the interviewees shall review these notes and confirm
+ their veracity by adding their signatures.<br>
+<br>
+6. In order to protect the privacy of applicants, the interview shall not be made public and the interviewer shall not disclose any details of the interview. Applicants are not allowed to carry audio and video equipment into the interview room.<br>
+<br>
+7. If any of the following conditions applies, the genuineness of a marriage is considered to be beyond doubt, and applicants may be exempted from the interview; however, applicants of the same marriage who have previously not passed the interview stage do
+ not qualify for this provision:<br>
+(1) The applicant has a biological child with the ROC citizen.<br>
+(2) The applicant has been married to the ROC citizen for more than two years and can prove that he/she lives together with the ROC citizen.<br>
+(3) The ROC citizen has resided in the country of the foreign national for more than one year and has obtained legal residency of that country.<br>
+(4) The applicants have both legally resided in a third country for more than one year and have been married there.<br>
+(5) The foreign national has earned an academic degree at a university or college in Taiwan, and has been in a relationship with the ROC citizen during the said academic period. 4<br>
+(6) The foreign national holds a valid Alien Resident Certificate as a foreign professional, foreign specialist professional, foreign senior professional, or intermediate skilled worker as stipulated by the Act for the Recruitment and Employment of Foreign
+ Professionals and subparagraphs 1 to 6 and 11 of paragraph 1 of Article 46 of the Employment Service Act.<br>
+(7) The foreign national holds a valid ROC Alien Permanent Resident Certificate.<br>
+(8) A sufficient number of facts are presented testifying to the genuineness of the marriage, which are accepted by the Ministry.<br>
+<br>
+8. If the Ministry or ROC overseas mission has any doubts regarding the authenticity of documents submitted by the applicants, it shall request verification from the issuing authorities in writing. In addition, it shall inform applicants of the delay in the
+ application process. The application process shall resume after confirmation from the issuing authorities has been received.<br>
+<br>
+9. After the interview, the Ministry or ROC overseas mission may request the applicants to provide relevant supplementary documents within one month to further prove the genuineness of the marriage. If the applicants fail to submit the requested documents within
+ one month, they shall not pass the interview stage of the application procedure.<br>
+<br>
+10.If doubts exist regarding the background of the concerned persons or the motivations behind their marriage, the ROC overseas mission may send a written request to the National Immigration Agency to investigate the family background, economic situation, and
+ physical and psychological conditions of the ROC citizen. This background check shall be used as reference for the application. The applicant shall be informed of the delay in the application procedure.<br>
+<br>
+11.If the Ministry or ROC overseas mission considers a second interview is necessary, it shall send a written notice to the applicants to explain the initial assessment, request relevant supplementary documents, and ask them to apply for a second interview.
+ After receiving the aforementioned written notice, the applicants shall provide an explanation with additional evidence that can prove the genuineness of their marriage and apply for a second interview. The Ministry or ROC overseas mission shall arrange a
+ second interview within two months of the applicants' request.<br>
+<br>
+12.If any of the following arises during or after the interview, the Ministry or the ROC overseas mission shall reject the application:<br>
+(1) Any of the applicants admits to marriage fraud.<br>
+(2) The applicants make inconsistent statements regarding important facts about their marriage or make false statements.<br>
+(3) Documents provided by any of the applicants are found to be forged or counterfeited.<br>
+(4) Other facts emerged to prove the marriage is not genuine.<br>
+<br>
+13.If the Ministry or ROC overseas mission refuses to accept or rejects an application for document authentication and a visa to enter Taiwan, it shall send the applicants a written explanation and enclose information on remedy procedures.</td>
+</tr>
+
+                    
+                    
+                </table>
+            </div>
+        
+    <!-- text-con end -->
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- 主要內容結束 -->
+
+        <footer>
+            <p id="gotop"><a role="button" href="#">Top</a></p>
+            
+                    <div class="footer-con">
+                        <a href="#Z" id="AF" name="Z" title="Copyright Area" accesskey="Z">:::</a>
+                        <div class="clearfix"></div>
+
+                        
+
+                        <ul class="address">
+                            <li>Address：</li>
+                            <li>Tel：
+                                Fax：
+                            </li>
+                        </ul>
+
+                        <ul class="logo-box">
+                            
+
+                            
+
+                            
+                        </ul>
+                        <div class="visitors">The number of visitors：3,221,278</div>
+                    </div>
+                
+
+        </footer>
+    </form>
+</body>
+</html>
+<script src="/js/bootstrap.min.js" type="text/javascript" nonce="7QiG5lTMQE6NYuttINgonw=="></script>
+<script src="/js/app.js" type="text/javascript" nonce="7QiG5lTMQE6NYuttINgonw=="></script>
+<script src="/js/FYLS.js" nonce="7QiG5lTMQE6NYuttINgonw=="></script>
+<script type="text/javascript" nonce="7QiG5lTMQE6NYuttINgonw==">
+    $(function () {
+        ChangeFunUrl();
+        $(window).resize(function () {
+            ChangeFunUrl();
+        });
+    });
+    function ChangeFunUrl() {
+        //功能頁面切換：依據頁面寬度切換功能
+        if ($(window).width() < 767) {
+            $("#hlLawCategory").attr("href", "LawCategoryMain.aspx?type=M");
+        }
+        else {
+            $("#hlLawCategory").attr("href", "LawCategoryMain.aspx");
+        }
+    }
+    function QueryString(name) {
+        var AllVars = window.location.search.substring(1);
+        var Vars = AllVars.split("&");
+        for (i = 0; i < Vars.length; i++) {
+            var Var = Vars[i].split("=");
+            if (Var[0] == name) return Var[1];
+        }
+        return "";
+    }
+    function GlobalCheckForm1() {
+        var keyword = $.trim($("#keyword1").val());
+        //全文檢索字詞不得為空值
+        if (keyword == "") {
+            alert("請輸入「檢索字詞」！");
+            return false;
+        }
+        //全文檢索字詞格式綜合判斷
+        if (keyword != "" && !validKeys(keyword)) {
+            alert("檢索字詞格式錯誤！請檢查後重新輸入！");
+            return false;
+        }
+        if (keyword != "" && isFullWidthText(keyword)) {
+            alert("檢索字詞格式錯誤！請檢查後重新輸入！")
+            return false;
+        }
+        window.open("SearchAllResultList.aspx?KW=" + encodeURIComponent(keyword), "_self");
+    }
+    function isFullWidthText(text) {
+        for (let i = 0; i < text.length; i++) {
+            const charCode = text.charCodeAt(i);
+            if ((charCode >= 0xFF01 && charCode <= 0xFF60) ||
+                (charCode >= 0xFFE0 && charCode <= 0xFFE6)) {
+                continue;
+            }
+            return false;
+        }
+        return true;
+    }
+    function GlobalCheckForm2() {
+        var keyword = $.trim($("#keyword2").val());
+        //全文檢索字詞不得為空值
+        if (keyword == "") {
+            alert("請輸入「檢索字詞」！");
+            return false;
+        }
+        //全文檢索字詞格式綜合判斷
+        if (keyword != "" && !validKeys(keyword)) {
+            alert("檢索字詞格式錯誤！請檢查後重新輸入！");
+            return false;
+        }
+        if (keyword != "" && isFullWidthText(keyword)) {
+            alert("檢索字詞格式錯誤！請檢查後重新輸入！")
+            return false;
+        }
+        window.open("SearchAllResultList.aspx?KW=" + encodeURIComponent(keyword), "_self");
+    }
+</script>
+
+        
+

@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 響應式網頁設定：若後端設定不開啟響應式網頁效果，則不顯示以下這一行 -->
+    <meta id="ctl00_RWDSetup" name="viewport" content="width=590" /><title>
+	 -Content
+</title><link href="css/font-awesome.min.css" rel="stylesheet" /><link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" /><link href="css/bootstrap-icons.min.css" rel="stylesheet" type="text/css" /><link href="css/layout.css?v=202606251713" rel="stylesheet" type="text/css" media="screen" /><link href="css/table.css" rel="stylesheet" type="text/css" media="screen" />
+    <!-- 網站樣式設定：依據後端設定樣式編號，讀取對應的CSS檔 -->
+    <link id="ctl00_TemplateID" href="/css/01.css" rel="stylesheet" type="text/css" media="all" /><link href="css/printweb.css" rel="stylesheet" type="text/css" media="print" />
+    <!-- 網頁背景圖設定：若後端自行上傳背景圖，則顯示以下這一行 -->
+   
+    <script src="/js/jquery-3.7.1.min.js" type="text/javascript" nonce="O1LAhlyGEE+o1XTYPXguig=="></script>
+    <script type="text/javascript"  nonce="O1LAhlyGEE+o1XTYPXguig==">
+        $(function () {
+            //避免XFS攻擊
+            if (top != self) { top.location = self.location; }
+        });
+    </script>
+    
+    <noscript><span class="text-white">No Support JavaScript</span></noscript>
+    
+    <style nonce="O1LAhlyGEE+o1XTYPXguig==">
+        #dvContent, #dvContent p, #dvContent div {
+            white-space: pre-wrap !important;
+        }
+
+        /* 補上 Quill 客製化字型尺寸 (10pt~24pt) */
+        .ql-size-10pt, .x_ql-size-10pt { font-size: 0.833em; }
+        .ql-size-12pt, .x_ql-size-12pt { font-size: 1.0em; }
+        .ql-size-14pt, .x_ql-size-14pt { font-size: 1.167em; }
+        .ql-size-16pt, .x_ql-size-16pt { font-size: 1.333em; }
+        .ql-size-18pt, .x_ql-size-18pt { font-size: 1.5em; }
+        .ql-size-20pt, .x_ql-size-20pt { font-size: 1.667em; }
+        .ql-size-24pt, .x_ql-size-24pt { font-size: 2.0em; }
+
+        /* 定義字型套用至編輯區的 Class 規則 */
+.ql-font-kai, .x_ql-font-kai {
+    font-family: "標楷體", "DFKai-SB", "BiauKai", serif;
+}
+
+.ql-font-pmingliu, .x_ql-font-pmingliu {
+    font-family: "新細明體", "PMingLiU", serif;
+}
+
+.ql-font-mingliu, .x_ql-font-mingliu {
+    font-family: "細明體", "MingLiU", serif;
+}
+
+.ql-font-times, .x_ql-font-times {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* 設定下拉選單預設顯示名稱 */
+.ql-snow .ql-picker.ql-font .ql-picker-label::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item::before {
+    content: '預設字型' !important;
+}
+
+/* 將各個字型代碼精準對映為「中文/英文顯示名稱」（在選單內也會以該字型呈現） */
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="kai"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="kai"]::before {
+    content: '標楷體' !important;
+    font-family: "標楷體", "DFKai-SB", "BiauKai", serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="pmingliu"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="pmingliu"]::before {
+    content: '新細明體' !important;
+    font-family: "新細明體", "PMingLiU", serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="mingliu"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="mingliu"]::before {
+    content: '細明體' !important;
+    font-family: "細明體", "MingLiU", serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="times"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="times"]::before {
+    content: 'Times New Roman' !important;
+    font-family: "Times New Roman", Times, serif;
+}
+    </style>
+
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="./EngLawContent.aspx?lan=E&amp;id=62" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7D393E81" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="h+NaQdJPqHb8LmpUydrB+9EoroGmHWK+LgfrVrSNGUt+QEs5SBhSQoNqcsODQwyezqUTjWlEEpnHkkHTvT1qeWPRnyKKGdRdTD6TF+pbJmL8FWTlUotKSq7r/u+MtxKi9PYaHC7XCjj/7P5oETR8nSjNT6TEQ32XnNz7wAzM7ak7bS16R8DTXK62RHzNjNSNZHXGuxHKRnC6ohkwMUjV1v6PFH93NmsM4drT+YFnDqw=" />
+</div>
+        <input type="hidden" name="ctl00$ctl11$forgeryToken" id="ctl00_ctl11_forgeryToken" value="71019ffa-fb33-4451-b701-11f17cffea57" />
+        <header>
+            <div class="navbar navbar-expand-md navbar-default">
+                <a href="#content" id="AM" class="sr-only sr-only-focusable A1" tabindex="1">Main Content Area</a>
+                <div id="ctl00_h1title" class="nav-system">Laws and Regulations Retrieving System</div>
+                <div class="header-con">
+                    <!-- 上方選單 -->
+                    <div class="collapse navbar-collapse header-nav">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#U" id="AU" name="U" title="Upper Block" accesskey="U" tabindex="2">:::</a></li>
+                            <li><a href="EngSiteMap.aspx" tabindex="3">Sitemap</a></li>
+                            <li><a href="EngNewsList.aspx" tabindex="4">Home</a></li>
+                            <li><a href="index.aspx" tabindex="5">中文版</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-header">
+                        <ul class="navbar-nav d-md-none m-menu">
+                            <li class="nav-item text-nowrap">
+                                <button type="button" class="navbar-toggler myNavbar" data-bs-toggle="offcanvas" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="MENU">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </li>
+                        </ul>
+                        <!-- 領用機關Logo 圖片-->
+                        <h1 class="logo">
+                            <a href="EngNewsList.aspx" id="ctl00_aUCName" title=" Laws and Regulations Retrieving System：Back To Home Page">
+                                <img src="ImageHandler.ashx?Field=LogoEng" id="ctl00_imgUCName" width="320" height="90" alt=" logo：Back To Laws and Regulations Retrieving System Home Page" />
+                            </a>
+                        </h1>
+                        <!-- 系統名稱Banner -->
+                        <div class="sys-name">
+                            <img src="images/logo_system.png" id="ctl00_imglogo" width="300" height="90" alt="Laws and Regulations Retrieving System" />
+                        </div>
+                    </div>
+                </div>
+                <!-- myNavbar 主選單 -->
+                <nav class="offcanvas offcanvas-end menu" id="myNavbar" aria-label="The main function menu">
+                    <div class="menu-con">
+                        <div class="offcanvas-header">
+                            <div>主管法規查詢系統</div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="關閉主選單"></button>
+                        </div>
+                        <ul class="m-0">
+                            <li class="active"><a href="EngNewsList.aspx">News</a></li>
+                            <li><a href="EngLawQuery.aspx">Searching</a></li>
+                            <!-- 小螢幕才會顯示 -->
+                            <li class="topmenu visible-xs"><a href="EngSiteMap.aspx">Sitemap</a></li>
+                            <li class="topmenu visible-xs"><a href="EngNewsList.aspx">Home</a></li>
+                            <li class="topmenu visible-xs"><a href="index.aspx">中文版</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+        <!-- 主要內容 -->
+        <div class="container-fluid con-bg">
+            <div class="content-con" id="content" role="main">
+                <a href="#C" id="AC" name="C" title="Main Content Area" accesskey="C">:::</a>
+                
+    
+            <ol class="breadcrumb">
+                Location：
+                <li><a href="EngLawQuery.aspx" id="ctl00_cp_content_aLocation_E">Searching</a></li>
+                <li>Content</li>
+            </ol>
+            <div class="btn-printer">
+                <a href="EngLawContent.aspx?media=downloadPDF&lan=E&id=62" id="ctl00_cp_content_aPDF" class="btn btn-default" title="Download Regulations Concerning Review and Issuance Procedures for Employment-seeking Visa Applications Submitted by Foreign Professionals.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;PDF</a>
+                <a class="btn btn-default" href="EngLawContent.aspx?media=print&lan=E&id=62" title="Open New Window" target="_blank"><i class="bi bi-printer-fill"></i>&nbsp;Print</a>
+            </div>
+            <div class="clearfix"></div>
+            <div class="text-con">
+                <div class="text-title">
+                    <h2><i class="bi bi-geo-alt-fill"></i> Content</h2>
+                </div>
+                <table class="table table-bordered tab-edit">
+                    <tr>
+                        <th width="20%">Title：</th>
+                        <td>
+                            
+                            Regulations Concerning Review and Issuance Procedures for Employment-seeking Visa Applications Submitted by Foreign Professionals
+                            <span class="label-chi"><a href="EngLawContent.aspx?lan=C&id=62" title="Read the Chinese version">Ch</a></span>
+                        </td>
+                    </tr>
+                    <tr id="ctl00_cp_content_trAnnDateE">
+	<th>Date：</th>
+	<td>2025.12.30</td>
+</tr>
+
+                    <tr id="ctl00_cp_content_trAnnSource">
+	<th>Legislative：</th>
+	<td>1. Promulgated by Ministry of Foreign Affairs and Ministry of the Interior by order Wai Shou Ling Er Zi No.1076800148 and Tai Nei Yi Zi No.1070022813 on Feb. 6, 2018, taking effect on Feb. 8, 2018.<br>2. Amended by Ministry of Foreign Affairs and Ministry of the Interior by order Wai Shou Ling Er Zi No.1106800985 and Tai Nei Yi Zi No.1100912777 on Nov. 19, 2021, taking effect on Oct. 25, 2021.<br>3. Amended by Ministry of Foreign Affairs and Ministry of the Interior by order Wai Shou Ling Er Zi No.1146801231 and Tai Nei Yi Zi No.1140934027 on Dec. 30, 2025, taking effect on Jan. 1, 2026.</td>
+</tr>
+
+                    <tr id="ctl00_cp_content_trAnnEContent">
+	<th>Content：</th>
+	<td class="ClearCss"><span class="csp-s0"><span class="csp-s1"><span class="csp-s2">Article 1</span><br>
+<span class="csp-s2">The Regulations Concerning Review and Issu ance Procedures for Employment-seeking Visa Applications Submitted by Foreign Professionals have been established in accordance with Paragraph 4 of Article 13 of the Act for the Recruitment and Employment of Foreign Professionals (hereinafter, the “Act”).</span><br>
+<br>
+<span class="csp-s2">Article 2</span><br>
+<span class="csp-s2">Foreign nationals who meet one of the following criteria may apply for an employment-seeking visa at an overseas mission of the Republic of China (Taiwan):<br>
+1. Employment experience, with an average monthly salary or remuneration over the past six months equal to or greater than the amount published by the central competent authority, in accordance with the criteria for foreigners undertaking jobs specified under Subparagraphs 1 to 6 of Paragraph 1 of Article 46 of the Employment Services Act<br>
+2. Graduated within the past year from one of the world’s top 1,500 universities as listed by the R.O.C. Ministry of Education, and not yet employed<br>
+3. Deemed otherwise eligible by the Ministry of Foreign Affairs following consultations with the central competent authority</span><br>
+<br>
+<span class="csp-s2">Article 3</span><br>
+<span class="csp-s2">Foreign nationals who meet one of the criteria described in Article 2 of the Regulations may apply for an employment-seeking visa at an R.O.C. overseas mission by submitting the following documents:<br>
+1. Completed and signed R.O.C. employment-seeking visa application checklist<br>
+2. Completed and signed R.O.C. visa application form<br>
+3. Passport and one photocopy<br>
+4. Plan for seeking employment<br>
+5. Proof of average monthly salary or remuneration over the past six months (applicants with work experience only)<br>
+6. Certificate of highest education level attained and proof of employment (latter for applicants with work experience only)<br>
+7. Proof of sufficient financial resources (at least NT$100,000 or equivalent)<br>
+8. Proof of health insurance and full hospitalization insurance for the entire duration of stay in the R.O.C.<br>
+9. Certificate of good conduct (criminal record check)<br>
+10. Other supporting documents (upon request)</span><br>
+<br>
+<span class="csp-s2">Article 4</span><br>
+<span class="csp-s2">R.O.C. overseas missions shall process foreign professionals’ employment-seeking visa applications after verifying that all required documents have been submitted. If a review of the application raises no concerns, the R.O.C. overseas mission shall issue a multiple-entry visitor visa to the applicant that is valid for three months and allows for a stay in Taiwan of up to six months.<br>
+If concerns exist regarding the applicant’s eligibility following review of the application, it shall be transferred to the Ministry of Foreign Affairs, which shall request that the competent central authority assist in reviewing the applicant’s eligibility.</span><br>
+<br>
+<span class="csp-s2">Article 5</span><br>
+<span class="csp-s2">With regard to eligibility criteria and required documents for residents of Hong Kong or Macao who are applying for an employment-seeking entry and exit permit, the provisions of Article 2 and Subparagraphs 4 to 10 of Paragraph 1 of Article 3 of the Regulations shall be followed.</span><br>
+<br>
+<span class="csp-s2">Article 6</span><br>
+<span class="csp-s2">The Regulations shall enter into force on the date of the Act comes into effect.</span></span></span><br>
+&nbsp;</td>
+</tr>
+
+                    
+                    <tr id="ctl00_cp_content_trAnnFiles2">
+	<th>Attachments：</th>
+	<td>
+                            <ul id="ctl00_cp_content_ulAnnFiles2"><li><a href="Download.ashx?FileID=457&id=62&type=ANNE" title="download 尋職簽證申請檢核表.pdf file">尋職簽證申請檢核表.pdf</a></li></ul>
+                        </td>
+</tr>
+
+                </table>
+            </div>
+        
+    <!-- text-con end -->
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- 主要內容結束 -->
+
+        <footer>
+            <p id="gotop"><a role="button" href="#">Top</a></p>
+            
+                    <div class="footer-con">
+                        <a href="#Z" id="AF" name="Z" title="Copyright Area" accesskey="Z">:::</a>
+                        <div class="clearfix"></div>
+
+                        
+
+                        <ul class="address">
+                            <li>Address：</li>
+                            <li>Tel：
+                                Fax：
+                            </li>
+                        </ul>
+
+                        <ul class="logo-box">
+                            
+
+                            
+
+                            
+                        </ul>
+                        <div class="visitors">The number of visitors：3,221,270</div>
+                    </div>
+                
+
+        </footer>
+    </form>
+</body>
+</html>
+<script src="/js/bootstrap.min.js" type="text/javascript" nonce="O1LAhlyGEE+o1XTYPXguig=="></script>
+<script src="/js/app.js" type="text/javascript" nonce="O1LAhlyGEE+o1XTYPXguig=="></script>
+<script src="/js/FYLS.js" nonce="O1LAhlyGEE+o1XTYPXguig=="></script>
+<script type="text/javascript" nonce="O1LAhlyGEE+o1XTYPXguig==">
+    $(function () {
+        ChangeFunUrl();
+        $(window).resize(function () {
+            ChangeFunUrl();
+        });
+    });
+    function ChangeFunUrl() {
+        //功能頁面切換：依據頁面寬度切換功能
+        if ($(window).width() < 767) {
+            $("#hlLawCategory").attr("href", "LawCategoryMain.aspx?type=M");
+        }
+        else {
+            $("#hlLawCategory").attr("href", "LawCategoryMain.aspx");
+        }
+    }
+    function QueryString(name) {
+        var AllVars = window.location.search.substring(1);
+        var Vars = AllVars.split("&");
+        for (i = 0; i < Vars.length; i++) {
+            var Var = Vars[i].split("=");
+            if (Var[0] == name) return Var[1];
+        }
+        return "";
+    }
+    function GlobalCheckForm1() {
+        var keyword = $.trim($("#keyword1").val());
+        //全文檢索字詞不得為空值
+        if (keyword == "") {
+            alert("請輸入「檢索字詞」！");
+            return false;
+        }
+        //全文檢索字詞格式綜合判斷
+        if (keyword != "" && !validKeys(keyword)) {
+            alert("檢索字詞格式錯誤！請檢查後重新輸入！");
+            return false;
+        }
+        if (keyword != "" && isFullWidthText(keyword)) {
+            alert("檢索字詞格式錯誤！請檢查後重新輸入！")
+            return false;
+        }
+        window.open("SearchAllResultList.aspx?KW=" + encodeURIComponent(keyword), "_self");
+    }
+    function isFullWidthText(text) {
+        for (let i = 0; i < text.length; i++) {
+            const charCode = text.charCodeAt(i);
+            if ((charCode >= 0xFF01 && charCode <= 0xFF60) ||
+                (charCode >= 0xFFE0 && charCode <= 0xFFE6)) {
+                continue;
+            }
+            return false;
+        }
+        return true;
+    }
+    function GlobalCheckForm2() {
+        var keyword = $.trim($("#keyword2").val());
+        //全文檢索字詞不得為空值
+        if (keyword == "") {
+            alert("請輸入「檢索字詞」！");
+            return false;
+        }
+        //全文檢索字詞格式綜合判斷
+        if (keyword != "" && !validKeys(keyword)) {
+            alert("檢索字詞格式錯誤！請檢查後重新輸入！");
+            return false;
+        }
+        if (keyword != "" && isFullWidthText(keyword)) {
+            alert("檢索字詞格式錯誤！請檢查後重新輸入！")
+            return false;
+        }
+        window.open("SearchAllResultList.aspx?KW=" + encodeURIComponent(keyword), "_self");
+    }
+</script>
+
+        <style nonce="O1LAhlyGEE+o1XTYPXguig==">
+.csp-s0 { font-size: 1em !important; } 
+.csp-s1 { font-family: Times New Roman !important; } 
+.csp-s2 { background: rgba(0, 0, 0, 0) !important; } 
+</style>
+
+

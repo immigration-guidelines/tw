@@ -1,0 +1,64 @@
+Taiwan (tw) - notes on sources, checked 15 November 2026
+
+Authorities: National Immigration Agency (內政部移民署, NIA) for entry, residence, permanent residence,
+mainland/Hong Kong/Macau visitors, detention and removal; Bureau of Consular Affairs of the Ministry of
+Foreign Affairs (外交部領事事務局) for visas; Workforce Development Agency of the Ministry of Labor
+(勞動部勞動力發展署, WDA) for work permits of foreign professionals.
+
+USED (all robots.txt read first; see download_tw.py for the exact pages)
+1. NIA, www.immigration.gov.tw (robots.txt bars only the ZoomEye bot)
+   - 入出國及移民法令彙編, the agency's compendium of statutes, regulations, administrative rules
+     (作業要點, 作業規定, 處理原則, 審查基準, 裁罰基準) and interpretive letters, every edition offered:
+     Dec 2014, Nov 2015, Nov 2016, Nov 2017, Jan 2019, Apr 2020, Nov 2021, Oct 2022, Jul 2024, Aug 2026
+     (10 PDFs, 1,600-1,700 pp. each, 73 MB). Mixed content (it also prints the statutes), kept as
+     guidance because it is the agency's own working compilation and the only reachable full text of
+     most of its administrative rules. https://www.immigration.gov.tw/5385/7353/7356/
+   - 主管法規 pages (https://www.immigration.gov.tw/5385/396729/): 11 administrative rules and notices
+     the agency hosts itself as files (Hong Kong/Macau entry and residence operating rules, biometric
+     and e-gate operating directions, mainland tourism quotas and procedures, interpretive orders).
+2. WDA, ezworktaiwan.wda.gov.tw (robots.txt 404; files on ws.wda.gov.tw, robots.txt 404)
+   - 審查作業手冊: 10 review manuals for work permits (specialised/technical work, managers, cram-school
+     teachers, sports, arts, contract personnel, foreign graduates points system, student part-time work,
+     termination, the Foreign Professionals Act). Dated by the page's "updated" date (2025-04-30); the
+     files themselves carry their own edition dates in their names.
+   - 會商機制: 12 files on the case-by-case consultation mechanism (legal basis, procedure, flowcharts).
+   - 公告及解釋令: 8 interpretive orders and review directions (2017-2025), 4 of them via
+     gazette.nat.gov.tw (robots.txt 404).
+3. MOFA law database, law.mofa.gov.tw (robots.txt 404), consular category: 3 rules on visas and visa
+   interviews (marriage-interview operation directions = guidance; enforcement rules of the visa statute
+   and employment-seeking visa regulations = procedural act), each in Chinese and official English.
+4. National law database, law.moj.gov.tw. robots.txt: "Disallow: /" except /LawClass/LawAll.aspx,
+   /News/NewsDetail.aspx and the sitemap. 34 regulations (法規命令) that are the working rules for
+   residence and permanent residence of foreigners, mainland/HK/Macau residents, nationals without
+   household registration, interviews, detention, deportation, trafficking victims and work-permit review
+   standards. Marked procedural act. Found from the NIA pages and, once, by a sweep of the database's
+   sitemap (Ministry of the Interior class D0080 and cross-strait classes Q001/Q002/Q006, about 260
+   pages, immigration titles only); the finds are pinned in MOJ_EXTRA so re-runs need no sweep.
+5. Internet Archive: 5 administrative rules of glrs.moi.gov.tw as captured 2018-2022 (fines standards,
+   bar on entry of foreigners, re-application bar periods, an interpretive order, nationals' entry and
+   exit). Dates are capture dates; later versions may be in force.
+
+NOT OBTAINED (see not-obtained.tsv, 40 entries)
+- glrs.moi.gov.tw, the Ministry of the Interior's own database where the NIA's administrative rules
+  live (移民 category: 154 entries, 91 of them 行政規則). It timed out from this machine for the earlier
+  agent and again for me (robots.txt, 40 s), so it was never used. 30-odd rules the NIA pages link
+  there are listed individually; their text is printed in the compendium editions.
+- laws.mol.gov.tw and law.mac.gov.tw: timed out for the earlier agent; not retried.
+- law.moj.gov.tw /ENG/ English translations: excluded by robots.txt.
+- Three Internet Archive captures (one failed with a refused connection, two added later) were not
+  fetched because the archive refused this machine later in the task (HTTP 403, connection refusals)
+  and was given up.
+- A visa-processing manual of the Bureau of Consular Affairs is not published.
+
+How much real guidance: a good deal. Taiwan publishes its administrative rules as such, and the NIA's
+compendium carries nearly all of them, in ten editions since 2014. The WDA publishes its full review
+manuals for work permits of foreign professionals. What is missing is the clean per-rule text from
+glrs.moi.gov.tw, which this machine cannot reach, and anything on unpublished internal instructions.
+
+Earlier work versus mine: an earlier agent wrote download_tw.py and explored the sites (notes in its
+scratch folder) but had not run it; tw/ did not exist. I ran it, then added the law-database sitemap
+sweep (and removed 33 police regulations a first, unfiltered sweep had saved), two Internet Archive
+items, glosses, a fix for "移至" title prefixes in gazette file names and Unicode normalisation for the
+gloss lookup.
+No HTTP 403/429, CAPTCHA or login wall was met on any Taiwanese host. No file is over 95 MB.
+Re-run: python3 download_tw.py   (sources: nia wda mofa moj wayback; add "sweep" with moj to re-sweep)

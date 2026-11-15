@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 響應式網頁設定：若後端設定不開啟響應式網頁效果，則不顯示以下這一行 -->
+    <meta id="ctl00_RWDSetup" name="viewport" content="width=590" /><title>
+	 -Content
+</title><link href="css/font-awesome.min.css" rel="stylesheet" /><link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" /><link href="css/bootstrap-icons.min.css" rel="stylesheet" type="text/css" /><link href="css/layout.css?v=202606251713" rel="stylesheet" type="text/css" media="screen" /><link href="css/table.css" rel="stylesheet" type="text/css" media="screen" />
+    <!-- 網站樣式設定：依據後端設定樣式編號，讀取對應的CSS檔 -->
+    <link id="ctl00_TemplateID" href="/css/01.css" rel="stylesheet" type="text/css" media="all" /><link href="css/printweb.css" rel="stylesheet" type="text/css" media="print" />
+    <!-- 網頁背景圖設定：若後端自行上傳背景圖，則顯示以下這一行 -->
+   
+    <script src="/js/jquery-3.7.1.min.js" type="text/javascript" nonce="s+pchLtycE2J3nZQgh0Scw=="></script>
+    <script type="text/javascript"  nonce="s+pchLtycE2J3nZQgh0Scw==">
+        $(function () {
+            //避免XFS攻擊
+            if (top != self) { top.location = self.location; }
+        });
+    </script>
+    
+    <noscript><span class="text-white">No Support JavaScript</span></noscript>
+    
+    <style nonce="s+pchLtycE2J3nZQgh0Scw==">
+        #dvContent, #dvContent p, #dvContent div {
+            white-space: pre-wrap !important;
+        }
+
+        /* 補上 Quill 客製化字型尺寸 (10pt~24pt) */
+        .ql-size-10pt, .x_ql-size-10pt { font-size: 0.833em; }
+        .ql-size-12pt, .x_ql-size-12pt { font-size: 1.0em; }
+        .ql-size-14pt, .x_ql-size-14pt { font-size: 1.167em; }
+        .ql-size-16pt, .x_ql-size-16pt { font-size: 1.333em; }
+        .ql-size-18pt, .x_ql-size-18pt { font-size: 1.5em; }
+        .ql-size-20pt, .x_ql-size-20pt { font-size: 1.667em; }
+        .ql-size-24pt, .x_ql-size-24pt { font-size: 2.0em; }
+
+        /* 定義字型套用至編輯區的 Class 規則 */
+.ql-font-kai, .x_ql-font-kai {
+    font-family: "標楷體", "DFKai-SB", "BiauKai", serif;
+}
+
+.ql-font-pmingliu, .x_ql-font-pmingliu {
+    font-family: "新細明體", "PMingLiU", serif;
+}
+
+.ql-font-mingliu, .x_ql-font-mingliu {
+    font-family: "細明體", "MingLiU", serif;
+}
+
+.ql-font-times, .x_ql-font-times {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* 設定下拉選單預設顯示名稱 */
+.ql-snow .ql-picker.ql-font .ql-picker-label::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item::before {
+    content: '預設字型' !important;
+}
+
+/* 將各個字型代碼精準對映為「中文/英文顯示名稱」（在選單內也會以該字型呈現） */
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="kai"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="kai"]::before {
+    content: '標楷體' !important;
+    font-family: "標楷體", "DFKai-SB", "BiauKai", serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="pmingliu"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="pmingliu"]::before {
+    content: '新細明體' !important;
+    font-family: "新細明體", "PMingLiU", serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="mingliu"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="mingliu"]::before {
+    content: '細明體' !important;
+    font-family: "細明體", "MingLiU", serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="times"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="times"]::before {
+    content: 'Times New Roman' !important;
+    font-family: "Times New Roman", Times, serif;
+}
+    </style>
+
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="./EngLawContent.aspx?lan=E&amp;id=58" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7D393E81" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="NWgihQ/Ezqr7KzGe4bunbveMXsW3cnm3YwvtE8zg7HJ3lzJ0Si8fadOnR97vLUMvWlzq4slTa62LtCo04dY/DrlKNYbtT9N9ExTdaJelj5oOyHXENz0GYJ7tqwnsrez5e35f2m7o0YZHoXRhsg5/+uKEM3iB+ttMW5tWj8nuyn1BPtpgNJ2C6dhoVfirroTL5z4ze5SmDCL6Xh/K9myx74rKT9PDKCHPMxVjb6K1wXg=" />
+</div>
+        <input type="hidden" name="ctl00$ctl11$forgeryToken" id="ctl00_ctl11_forgeryToken" value="e8de12ed-2d03-4718-95d6-e8db7aa00b06" />
+        <header>
+            <div class="navbar navbar-expand-md navbar-default">
+                <a href="#content" id="AM" class="sr-only sr-only-focusable A1" tabindex="1">Main Content Area</a>
+                <div id="ctl00_h1title" class="nav-system">Laws and Regulations Retrieving System</div>
+                <div class="header-con">
+                    <!-- 上方選單 -->
+                    <div class="collapse navbar-collapse header-nav">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#U" id="AU" name="U" title="Upper Block" accesskey="U" tabindex="2">:::</a></li>
+                            <li><a href="EngSiteMap.aspx" tabindex="3">Sitemap</a></li>
+                            <li><a href="EngNewsList.aspx" tabindex="4">Home</a></li>
+                            <li><a href="index.aspx" tabindex="5">中文版</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-header">
+                        <ul class="navbar-nav d-md-none m-menu">
+                            <li class="nav-item text-nowrap">
+                                <button type="button" class="navbar-toggler myNavbar" data-bs-toggle="offcanvas" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="MENU">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </li>
+                        </ul>
+                        <!-- 領用機關Logo 圖片-->
+                        <h1 class="logo">
+                            <a href="EngNewsList.aspx" id="ctl00_aUCName" title=" Laws and Regulations Retrieving System：Back To Home Page">
+                                <img src="ImageHandler.ashx?Field=LogoEng" id="ctl00_imgUCName" width="320" height="90" alt=" logo：Back To Laws and Regulations Retrieving System Home Page" />
+                            </a>
+                        </h1>
+                        <!-- 系統名稱Banner -->
+                        <div class="sys-name">
+                            <img src="images/logo_system.png" id="ctl00_imglogo" width="300" height="90" alt="Laws and Regulations Retrieving System" />
+                        </div>
+                    </div>
+                </div>
+                <!-- myNavbar 主選單 -->
+                <nav class="offcanvas offcanvas-end menu" id="myNavbar" aria-label="The main function menu">
+                    <div class="menu-con">
+                        <div class="offcanvas-header">
+                            <div>主管法規查詢系統</div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="關閉主選單"></button>
+                        </div>
+                        <ul class="m-0">
+                            <li class="active"><a href="EngNewsList.aspx">News</a></li>
+                            <li><a href="EngLawQuery.aspx">Searching</a></li>
+                            <!-- 小螢幕才會顯示 -->
+                            <li class="topmenu visible-xs"><a href="EngSiteMap.aspx">Sitemap</a></li>
+                            <li class="topmenu visible-xs"><a href="EngNewsList.aspx">Home</a></li>
+                            <li class="topmenu visible-xs"><a href="index.aspx">中文版</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+        <!-- 主要內容 -->
+        <div class="container-fluid con-bg">
+            <div class="content-con" id="content" role="main">
+                <a href="#C" id="AC" name="C" title="Main Content Area" accesskey="C">:::</a>
+                
+    
+            <ol class="breadcrumb">
+                Location：
+                <li><a href="EngLawQuery.aspx" id="ctl00_cp_content_aLocation_E">Searching</a></li>
+                <li>Content</li>
+            </ol>
+            <div class="btn-printer">
+                <a href="EngLawContent.aspx?media=downloadPDF&lan=E&id=58" id="ctl00_cp_content_aPDF" class="btn btn-default" title="Download Enforcement Rules for the Issuance of ROC Visas to Foreign-Passport Holders.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;PDF</a>
+                <a class="btn btn-default" href="EngLawContent.aspx?media=print&lan=E&id=58" title="Open New Window" target="_blank"><i class="bi bi-printer-fill"></i>&nbsp;Print</a>
+            </div>
+            <div class="clearfix"></div>
+            <div class="text-con">
+                <div class="text-title">
+                    <h2><i class="bi bi-geo-alt-fill"></i> Content</h2>
+                </div>
+                <table class="table table-bordered tab-edit">
+                    <tr>
+                        <th width="20%">Title：</th>
+                        <td>
+                            
+                            Enforcement Rules for the Issuance of ROC Visas to Foreign-Passport Holders
+                            <span class="label-chi"><a href="EngLawContent.aspx?lan=C&id=58" title="Read the Chinese version">Ch</a></span>
+                        </td>
+                    </tr>
+                    <tr id="ctl00_cp_content_trAnnDateE">
+	<th>Date：</th>
+	<td>2023.12.29</td>
+</tr>
+
+                    <tr id="ctl00_cp_content_trAnnSource">
+	<th>Legislative：</th>
+	<td>3.Amendment to Article 2 promulgated under MOFA’s Administrative Order C2 No. 1126801484 on December 29, 2023<br>2.Revised under MOFA’s Administrative Order C2 No. 09369019120 on June 2, 2004<br>1.Promulgated under MOFA’s Administrative Order (89) C2 NO. 8968130051 on May 31, 2000</td>
+</tr>
+
+                    <tr id="ctl00_cp_content_trAnnEContent">
+	<th>Content：</th>
+	<td class="ClearCss">
+<p class="x_MsoNormal"><span lang="EN-US" class="csp-s0">Article 1</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">The Enforcement Rules are prescribed in accordance with Article 15 for the Statute Governing the Issuance of ROC Visas to Foreign Passport
+ Holders (hereinafter referred to as the Statute).</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 2</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s2">
+<span lang="EN-US" class="csp-s0">Nationals of specific countries as prescribed in Article 6 for the Statute who are eligible for visa-exempt entry to the ROC, or to apply for a landing visa upon arrival in the ROC, shall meet the following requirements:</span></p>
+<p class="x_MsoNormal csp-s3">
+<span lang="EN-US" class="csp-s0"><span>1.</span></span><span lang="EN-US" class="csp-s0">Unless otherwise regulated by treaties or agreements, or agreed to by the Ministry of Foreign Affairs (MOFA), the remaining validity of the
+ applicant’s passport shall be of no less than six months;</span></p>
+<p class="x_MsoNormal csp-s3">
+<span lang="EN-US" class="csp-s0"><span>2.</span></span><span lang="EN-US" class="csp-s0">The applicant has booked a return or onward air ticket/sea passage with the date of departure preceding the expiration of the length of stay;</span></p>
+<p class="x_MsoNormal csp-s3">
+<span lang="EN-US" class="csp-s0"><span>3.</span></span><span lang="EN-US" class="csp-s0">A valid visa for the next destination has been secured, unless no visa is required for the onward trip;</span></p>
+<p class="x_MsoNormal csp-s3">
+<span lang="EN-US" class="csp-s0"><span>4.</span></span><span lang="EN-US" class="csp-s0">Section 1, Article 12 of the Statute and Section 1, Article
+<span class="csp-s4">18 of</span> the Immigration Law do not apply to the applicant’s case.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Parties eligible for visa-exempt entry to the ROC, or the issuance of a visa upon arrival as stated in the preceding section, shall be
+ chosen and announced by MOFA.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 3</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s2">
+<span lang="EN-US" class="csp-s0">A passport holder who may apply to MOFA for a visa upon arrival in the ROC due to special needs as described in Article 6 of the Statute are passport holders from countries other than the specified countries who meet
+ any of the following conditions and obtain approval from MOFA:</span></p>
+<p class="x_MsoNormal csp-s5">
+<span lang="EN-US" class="csp-s0"><span>1.</span></span><span lang="EN-US" class="csp-s0">They have been invited to the ROC by the Central Government;</span></p>
+<p class="x_MsoNormal csp-s3">
+<span lang="EN-US" class="csp-s0"><span>2.</span></span><span lang="EN-US" class="csp-s0">They have been invited to international conferences and/or activities hosted by the Central Government of the ROC;</span></p>
+<p class="x_MsoNormal csp-s3">
+<span lang="EN-US" class="csp-s0"><span>3.</span></span><span lang="EN-US" class="csp-s0">Expedited entry is necessary due to major events or disaster relief programs; and</span></p>
+<p class="x_MsoNormal csp-s3">
+<span lang="EN-US" class="csp-s0"><span>4.</span></span><span lang="EN-US" class="csp-s0">Other important causes.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 4</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s2">
+<span lang="EN-US" class="csp-s0">A foreign-passport holder who enters the ROC by visa-exemption, or who obtains a visa upon arrival, shall leave the ROC upon or before the expiration of permitted legal period of stay. However, in the following circumstances,
+ the person may submit supporting documents and apply to the Bureau of Consular Affairs or its subordinate agencies for a visitor visa before the expiration of permitted legal period of stay;</span></p>
+<p class="x_MsoNormal csp-s3">
+<span lang="EN-US" class="csp-s0"><span>1.</span></span><span lang="EN-US" class="csp-s0">The person is afflicted with an acute, severe disease, excluding infectious, mental or other diseases that may pose a threat to public health
+ or social order;</span></p>
+<p class="x_MsoNormal csp-s3">
+<span lang="EN-US" class="csp-s0"><span>2.</span></span><span lang="EN-US" class="csp-s0">Natural disasters or forces majeur; and</span></p>
+<p class="x_MsoNormal csp-s3">
+<span lang="EN-US" class="csp-s0"><span>3.</span></span><span lang="EN-US" class="csp-s0">Other justifiable causes.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 5</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s2">
+<span lang="EN-US" class="csp-s0">When a foreign-passport holder applies for an ROC visa, the passport holder shall submit to MOFA, or to ROC Embassies, Consulates, representative offices abroad, or other agencies(hereinafter referred to as ROC overseas
+ missions) authorized by MOFA, a completed visa application form, a valid passport and photograph(s) taken within the past six months. Unless regulated otherwise by treaties or agreements, a “valid foreign passport” as stated in the preceding section shall
+ be valid for or over 6 months.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">MOFA and ROC overseas missions may request the applicant to undergo an interview or submit travel plans, proof of familial relations,
+ results of health examinations, proof of criminal record, proof of financial status, proof of the purpose of visit, information regarding the applicant’s contacts, relatives or guarantor in the ROC, and other documents as required for the review process.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 6</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">MOFA and ROC overseas missions shall review the applicant’s status, purpose of visit, and type and validity of passport before issuing
+ the appropriate ROC visa to the applicant.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 7</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Diplomatic Visas and Courtesy Visas as stated respectively in Paragraph 1 and Paragraph 2, Section 1, Article 7 of the Statute shall
+ have a validity of no longer than 5 years. The number of entries and length of stay shall be determined in accordance with the applicant’s needs and the purpose of his/her visit. In cases where the duration of stay is not specified, there shall be no limit
+ to the length of stay, provided that this does not exceed the time required for the visa-holder’s assignment in the ROC.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 8</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">The “validity” of a visa as stated in Section 2, Article 7 of the Statute refers to the time within which “duration of stay” as stated
+ in Section 2, Article 7 of the Statute refers to the time within which the visa-holder is permitted to enter the ROC. The period of duration shall be calculated from the day the visa is issued.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">The “duration of stay” as stated in Section2, Article 7 of the Statute refers to the period within which the visa holder may be permitted
+ to stay in the ROC. </span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">The period of “stay” shall be calculated from the day following the applicant’s admission into the ROC.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">The “number of entries” as stated in Section 2, Article 7 of the Statute refers to the number of times the visa holder is permitted to
+ enter the ROC during the validity of the visa.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 9</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">The term “short-term stay” as stated in Article 10 of the Statute refers to any planned visit to the ROC that does not exceed 6 months.<span>&nbsp;
+</span></span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">The validity of the visa, the number of entries and the duration of stay for a visitor-visa holder shall be determined by the applicant’s
+ nationality, purpose of visit, and the type of passport the applicant holds, as well as its date of expiry.<span>&nbsp;
+</span></span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Visitor visa shall have a validity of no more than 5 years, with an option of single or multiple entry visas.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article10</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Foreign passport holders may apply for visitor visas for the purposes of transit; tour; visit relatives; undertake visits; undertake
+ inspection tours; attend international conferences; conduct business; pursue short-term study; undertake short-term employment; undertake short-term missionary work; and engage in other activities in the ROC as approved by MOFA.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Applicant’s applying for the above-mentioned visa seeking to engage in profit-making activities or work shall submit documents from the
+ competent authorities at the central-government level, or their authorized agencies, showing that such activities have been approved.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 11</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">The term “long-term stay” as stated in Article 11 of the Statute refers to a planned period of stay exceeding 6 months.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">A resident visa issued by ROC overseas missions shall be good for single entry only and its validity shall not exceed 6 months. The visa
+ holder shall apply for an Alien Resident Certificate (ARC) after being admitted into the ROC.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Resident visas issued by MOFA within ROC territory shall be used for applying for ARCs only and shall not be used for entry into the
+ ROC.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 12</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Family members of, and others accompanying, officials of specific inter-governmental organizations and foreign agencies that are based
+ in the ROC may apply for single/multiple-entry resident visas with a duration of no longer than 5 years.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">The above-mentioned persons, unless possessing official identification cards issued by MOFA, shall apply for ARCs.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 13</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Foreign passport holder may apply for resident visas in order to: join family; pursed studies; undertake employment; invest; conduct
+ missionary work; conduct official duties; participate in international exchange programs; and engage in other activities approved by MOFA or other relevant agencies at the central-government level.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Unless related approval is not required, the applicant shall submit documents issued by the competent authorities at the central-government
+ level, or their authorized agencies, approving the purpose of the applicant’s visit to the ROC when applying for a resident visa.</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 14</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">In the case of an application lodged by a stateless person who may lose residency of the country that issued the travel document that
+ the applicant holds, MOFA or ROC overseas missions may refuse the application. </span>
+</p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">Article 15</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">&nbsp;</span></p>
+<p class="x_MsoNormal csp-s1"><span lang="EN-US" class="csp-s0">The Enforcement Rules shall take effect upon promulgation.</span></p>
+</td>
+</tr>
+
+                    
+                    
+                </table>
+            </div>
+        
+    <!-- text-con end -->
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- 主要內容結束 -->
+
+        <footer>
+            <p id="gotop"><a role="button" href="#">Top</a></p>
+            
+                    <div class="footer-con">
+                        <a href="#Z" id="AF" name="Z" title="Copyright Area" accesskey="Z">:::</a>
+                        <div class="clearfix"></div>
+
+                        
+
+                        <ul class="address">
+                            <li>Address：</li>
+                            <li>Tel：
+                                Fax：
+                            </li>
+                        </ul>
+
+                        <ul class="logo-box">
+                            
+
+                            
+
+                            
+                        </ul>
+                        <div class="visitors">The number of visitors：3,221,273</div>
+                    </div>
+                
+
+        </footer>
+    </form>
+</body>
+</html>
+<script src="/js/bootstrap.min.js" type="text/javascript" nonce="s+pchLtycE2J3nZQgh0Scw=="></script>
+<script src="/js/app.js" type="text/javascript" nonce="s+pchLtycE2J3nZQgh0Scw=="></script>
+<script src="/js/FYLS.js" nonce="s+pchLtycE2J3nZQgh0Scw=="></script>
+<script type="text/javascript" nonce="s+pchLtycE2J3nZQgh0Scw==">
+    $(function () {
+        ChangeFunUrl();
+        $(window).resize(function () {
+            ChangeFunUrl();
+        });
+    });
+    function ChangeFunUrl() {
+        //功能頁面切換：依據頁面寬度切換功能
+        if ($(window).width() < 767) {
+            $("#hlLawCategory").attr("href", "LawCategoryMain.aspx?type=M");
+        }
+        else {
+            $("#hlLawCategory").attr("href", "LawCategoryMain.aspx");
+        }
+    }
+    function QueryString(name) {
+        var AllVars = window.location.search.substring(1);
+        var Vars = AllVars.split("&");
+        for (i = 0; i < Vars.length; i++) {
+            var Var = Vars[i].split("=");
+            if (Var[0] == name) return Var[1];
+        }
+        return "";
+    }
+    function GlobalCheckForm1() {
+        var keyword = $.trim($("#keyword1").val());
+        //全文檢索字詞不得為空值
+        if (keyword == "") {
+            alert("請輸入「檢索字詞」！");
+            return false;
+        }
+        //全文檢索字詞格式綜合判斷
+        if (keyword != "" && !validKeys(keyword)) {
+            alert("檢索字詞格式錯誤！請檢查後重新輸入！");
+            return false;
+        }
+        if (keyword != "" && isFullWidthText(keyword)) {
+            alert("檢索字詞格式錯誤！請檢查後重新輸入！")
+            return false;
+        }
+        window.open("SearchAllResultList.aspx?KW=" + encodeURIComponent(keyword), "_self");
+    }
+    function isFullWidthText(text) {
+        for (let i = 0; i < text.length; i++) {
+            const charCode = text.charCodeAt(i);
+            if ((charCode >= 0xFF01 && charCode <= 0xFF60) ||
+                (charCode >= 0xFFE0 && charCode <= 0xFFE6)) {
+                continue;
+            }
+            return false;
+        }
+        return true;
+    }
+    function GlobalCheckForm2() {
+        var keyword = $.trim($("#keyword2").val());
+        //全文檢索字詞不得為空值
+        if (keyword == "") {
+            alert("請輸入「檢索字詞」！");
+            return false;
+        }
+        //全文檢索字詞格式綜合判斷
+        if (keyword != "" && !validKeys(keyword)) {
+            alert("檢索字詞格式錯誤！請檢查後重新輸入！");
+            return false;
+        }
+        if (keyword != "" && isFullWidthText(keyword)) {
+            alert("檢索字詞格式錯誤！請檢查後重新輸入！")
+            return false;
+        }
+        window.open("SearchAllResultList.aspx?KW=" + encodeURIComponent(keyword), "_self");
+    }
+</script>
+
+        <style nonce="s+pchLtycE2J3nZQgh0Scw==">
+.csp-s0 { font-size: 1.167em !important; } 
+.csp-s1 { text-align: justify !important; text-justify: inter-ideograph !important; } 
+.csp-s2 { margin-bottom: 1em !important; text-align: justify !important; text-justify: inter-ideograph !important; } 
+.csp-s3 { margin-left: 1.946em !important; text-align: justify !important; text-justify: inter-ideograph !important; text-indent: -0.946em !important; } 
+.csp-s4 { color: rgba(0, 0, 0, 1) !important; } 
+.csp-s5 { margin-left: 3em !important; text-align: justify !important; text-justify: inter-ideograph !important; text-indent: -2em !important; } 
+</style>
+
+
